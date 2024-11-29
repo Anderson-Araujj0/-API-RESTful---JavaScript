@@ -4,8 +4,8 @@ Este é um projeto simples de uma API RESTful construída com Node.js e Express.
 
 ## Funcionalidades
 
-- GET** /api/usuarios - Listar todos os usuários
-- POST** /api/usuarios - Criar um novo usuário
+- GET /api/usuarios - Listar todos os usuários
+- POST /api/usuarios - Criar um novo usuário
 - PUT /api/usuarios/:id - Atualizar um usuário existente
 - DELETE /api/usuarios/:id - Deletar um usuário
 
