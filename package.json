@@ -1,2 +1,19 @@
 mkdir api-usuarios
 cd api-usuarios
+
+# Inicialize o package.json com o comando: #
+
+npm init -y
+
+# nstale o Express.js #
+
+npm install express
+npm install --save-dev nodemon
+
+# Atualize o arquivo package.json #
+
+"scripts": {
+  "dev": "nodemon server.js"
+}
+
+
