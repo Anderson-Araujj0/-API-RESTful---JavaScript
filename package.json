@@ -1,19 +1,29 @@
 mkdir api-usuarios
 cd api-usuarios
 
-# Inicialize o package.json com o comando: #
-
+# Inicialize o package.json com o comando:
 npm init -y
 
-# nstale o Express.js #
-
+# Instalar o Express.js
 npm install express
+
+# Instalar o Nodemon como dependência de desenvolvimento
 npm install --save-dev nodemon
 
-# Atualize o arquivo package.json #
-
-"scripts": {
-  "dev": "nodemon server.js"
+{
+  "name": "api-usuarios",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de usuários",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
-
-
