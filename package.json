@@ -1,13 +1,13 @@
 mkdir api-usuarios
 cd api-usuarios
 
-# Inicialize o package.json com o comando:
+ Inicialize o package.json com o comando:
 npm init -y
 
-# Instalar o Express.js
+ Instalar o Express.js
 npm install express
 
-# Instalar o Nodemon como dependência de desenvolvimento
+ Instalar o Nodemon como dependência de desenvolvimento
 npm install --save-dev nodemon
 
 {
